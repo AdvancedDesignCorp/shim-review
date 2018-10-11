@@ -1,5 +1,5 @@
-Script started on 2018-10-11 11:41:01+0900
-adc@adc-Lenovo-ideapad-510-15IKB: ~/WORK/UEFI/shim-15[01;32madc@adc-Lenovo-ideapad-510-15IKB[00m:[01;34m~/WORK/UEFI/shim-15[00m$ bash mk-ss[Khim64.sh 
+Script started on 2018-10-11 16:44:20+0900
+]0;adc@adc-Lenovo-ideapad-510-15IKB: ~/WORK/UEFI/shim-15[01;32madc@adc-Lenovo-ideapad-510-15IKB[00m:[01;34m~/WORK/UEFI/shim-15[00m$ bash mk-shim64.sh 
 ********** Compile start...   **********
 pwd make EFI_PATH=/usr/lib VENDOR_CERT_FILE=/home/adc/WORK/UEFI/SB_CERT/adc_ca.cer ENABLE_HTTPBOOT=1 ARCH=x86_64
 sed	-e "s,@@VERSION@@,15," \
@@ -569,6 +569,6 @@ objcopy -j .text -j .sdata -j .data -j .data.ident \
 	-j .vendor_cert \
 	--target efi-app-x86_64 fbx64.so fbx64.efi
 ********** Compile finish.    **********
-]0;adc@adc-Lenovo-ideapad-510-15IKB: ~/WORK/UEFI/shim-15[01;32madc@adc-Lenovo-ideapad-510-15IKB[00m:[01;34m~/WORK/UEFI/shim-15[00m$ exit
+]0;adc@adc-Lenovo-ideapad-510-15IKB: ~/WORK/UEFI/shim-15[01;32madc@adc-Lenovo-ideapad-510-15IKB[00m:[01;34m~/WORK/UEFI/shim-15[00m$ mv [K[K[Kexit
 
-Script done on 2018-10-11 11:42:53+0900
+Script done on 2018-10-11 16:45:03+0900
