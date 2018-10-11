@@ -10,40 +10,50 @@ Make sure you have provided the following information:
 
 
 ###### What organization or people are asking to have this signed:
-`[your text here]`
+Advanced Design Corp. (https://www.a-d.co.jp/)
+
 
 ###### What product or service is this for:
-`[your text here]`
+DataSweeper (This refers to methods of totally erasing data from storage media that can then be reused.)
+
 
 ###### What is the origin and full version number of your shim?
-`[your text here]`
+15
+https://github.com/rhboot/shim/releases/tag/15
+
 
 ###### What's the justification that this really does need to be signed for the whole world to be able to boot it:
-`[your text here]`
+The loader is used to load and start our native UEFI based pre-boot authentication.
+It's essential to be able to provide software that works with every machine that has Secure Boot enabled.
+
 
 ###### How do you manage and protect the keys used in your SHIM?
-`[your text here]`
+Only public keys are in SHIM as it verifies signatures of loaded components.
+
 
 ###### Do you use EV certificates as embedded certificates in the SHIM?
-`[your text here]`
+No
+
 
 ###### What is the origin and full version number of your bootloader (GRUB or other)?
-`[your text here]`
+GRUB2 
+
 
 ###### If your SHIM launchers any other components, please provide further details on what is launched
-`[your text here]`
+No
 
 ###### How do the launched components prevent execution of unauthenticated code?
-`[your text here]`
+N/A
 
 ###### Does your SHIM load any loaders that support loading unsigned kernels (e.g. GRUB)?
-`[your text here]`
+GRUB2
 
 ###### What kernel are you using? Which patches does it includes to enforce Secure Boot?
-`[your text here]`
+Currently targeted to ship with 4.14.xx kernel.
+No additional modifications or patches applied.
 
 ###### What changes were made since your SHIM was last signed?
-`[your text here]`
+N/A
 
 ###### What is the hash of your final SHIM binary?
-`[your text here]`
+(sha256) 9d71ea09127c45898f5962974fcf93a737d5a12a70ec4932d97c89a22311225f  shimx64.efi
