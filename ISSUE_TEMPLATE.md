@@ -56,4 +56,4 @@ No additional modifications or patches applied.
 N/A
 
 ###### What is the hash of your final SHIM binary?
-(sha256) 9d71ea09127c45898f5962974fcf93a737d5a12a70ec4932d97c89a22311225f  shimx64.efi
+(sha256) ad49b4afbec5cf763b9ea97347c7a397802f0ba79412d2e4caa2e0b7776ca9b5  shimx64.efi

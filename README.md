@@ -65,14 +65,14 @@ None
 -------------------------------------------------------------------------------
 What OS and toolchain must we use to reproduce this build?  Include where to find it, etc.  We're going to try to reproduce your build as close as possible to verify that it's really a build of the source tree you tell us it is, so these need to be fairly thorough. At the very least include the specific versions of gcc, binutils, and gnu-efi which were used, and where to find those binaries.
 -------------------------------------------------------------------------------
-ÅEUbuntu 18.04.1 LTS (Kernel 4.15.0-34-generic)
-ÅEgcc (Ubuntu 7.3.0-16ubuntu3) 7.3.0
-ÅEgnu-efi 3.0.8-0ubuntu1~18.04.1
+*Ubuntu 18.04.1 LTS (Kernel 4.15.0-34-generic)
+*gcc (Ubuntu 7.3.0-16ubuntu3) 7.3.0
+*gnu-efi 3.0.8-0ubuntu1~18.04.1
 
 -------------------------------------------------------------------------------
 Which files in this repo are the logs for your build?   This should include logs for creating the buildroots, applying patches, doing the build, creating the archives, etc.
 -------------------------------------------------------------------------------
-bulid-log.txt
+shim_build_x64.txt
 
 -------------------------------------------------------------------------------
 Add any additional information you think we may need to validate this shim
